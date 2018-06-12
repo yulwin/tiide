@@ -9,3 +9,10 @@ def hello():
 @app.route("/tiide")
 def tiide():
     return "Welcome to TIIDE World"
+
+@app.route("/yulwin")
+def yulwin():
+    return "Yu Yu Lwin"
+
+if __name__ == "__main__":
+    app.run()
